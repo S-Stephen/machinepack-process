@@ -21,7 +21,7 @@ module.exports = {
 
 
   fn: function (inputs, exits){
-    var openBrowserAndNavigateToUrl = require('open');
+    var openBrowserAndNavigateToUrl = require('opn');
     openBrowserAndNavigateToUrl(inputs.url);
     return exits.success();
   }

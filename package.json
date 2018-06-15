@@ -19,7 +19,7 @@
     "lodash.isundefined": "3.0.1",
     "machine": "~12.1.0",
     "machinepack-json": "~2.0.0",
-    "open": "0.0.5"
+    "opn": "^5.3.0"
   },
   "devDependencies": {
     "async": "1.5.2",
